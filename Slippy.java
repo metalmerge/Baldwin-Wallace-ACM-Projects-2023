@@ -5,7 +5,7 @@ public class Main {
     static int[] dx = {0, 0, -1, 1}; // directions: N, S, W, E
     static int[] dy = {-1, 1, 0, 0};
     static char[][] grid;
-    static boolean[][][][][][][] visited;
+    static boolean[][][][][][][][] visited;
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
